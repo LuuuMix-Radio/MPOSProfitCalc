@@ -1,0 +1,6 @@
+[Main]
+urlToPool: http://zec.suprnova.cc/
+PoolName: ZEC Suprnova
+CurrencyShortName: ZEC
+CoinMarketCapCurrencyName: ZCash
+AvailableBlocksInStats: 20

@@ -1,0 +1,6 @@
+[Main]
+urlToPool: 
+PoolName: 
+CurrencyShortName: 
+CoinMarketCapCurrencyName: 
+AvailableBlocksInStats: 
