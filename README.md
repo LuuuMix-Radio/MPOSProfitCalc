@@ -2,8 +2,7 @@
 
 ### Created by Marekkon5
 
-### Requires Python 2 to build or use source.
-### Releases doesn't
+##### Requires Python 2 to build or use source, releases doesn't
 
 ### Usage:
 
