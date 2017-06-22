@@ -2,7 +2,7 @@
 
 ### Created by Marekkon5
 
-![alt text](https://raw.githubusercontent.com/Marekkon5/MPOSProfitCalc/master/Screenshot.png)
+![alt text](https://raw.githubusercontent.com/Marekkon5/MPOSProfitCalc/master/Screenshot1.png)
 
 ##### Requires Python 2 to build or use source, releases doesn't
 
