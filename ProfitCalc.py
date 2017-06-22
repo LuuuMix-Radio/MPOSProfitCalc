@@ -48,7 +48,7 @@ def calc():
     trans = urllib2.urlopen(urla + api).read()
     tran = json.loads(trans)
     tran = tran['getusertransactions']['data']['transactions']
-    a = 50
+    a = aabks
     b = 0
     tranmoney = 0
     tranmoney = float(tranmoney)
