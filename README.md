@@ -19,7 +19,7 @@ CoinMarketCapCurrencyName: **CoinMarketCap.com Currency Name, Ex: ZCash**
 
 AvailableBlocksInStats: **Available Blocks In Pool Statistics, Ex: 20**    
 
-AvailableBlocksInStats - you can get this value from pool > statistics > blocks    
+_AvailableBlocksInStats - you can get this value from pool > statistics > blocks_    
 
 #### Then open or build (if u want to have exe for non-python users)
 
