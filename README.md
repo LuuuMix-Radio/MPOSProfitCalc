@@ -43,13 +43,13 @@ And you are done
 2. Change on top **UseConfig = 1** to **UseConfig = 0**
 
 3. Fill values from config to the ProfitCalc.py
-
-urlToPool = ""
-PoolName = ""
-CurrencyShortName = ""
-CoinMarketCapCurrencyName = ""
-AvailableBlocksInStats = 0
-
+```
+urlToPool = ""    
+PoolName = ""    
+CurrencyShortName = ""    
+CoinMarketCapCurrencyName = ""    
+AvailableBlocksInStats = 0    
+```
 4. Save and follow build instructions above, but config.txt is no longer required.
 
 RELEASES Also Available
