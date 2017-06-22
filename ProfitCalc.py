@@ -7,18 +7,34 @@ import time
 from decimal import *
 import tkFont
 import ConfigParser
-#THIS USES CONFIG FILE CALLED: config.txt
+
+#IF UseConfig is 1, then settings above will be ignored
+#Set it to 0, if u want single-exe
+UseConfig = 1
+
+urlToPool = ""
+PoolName = ""
+CurrencyShortName = ""
+CoinMarketCapCurrencyName = ""
+AvailableBlocksInStats = 0
+
 
 Config = ConfigParser.ConfigParser()
 Config.read("config.txt")
 
-page = Config.get("Main", 'urlToPool')
-poolname = Config.get("Main", 'PoolName')
-cshortname = Config.get("Main", 'CurrencyShortName')
-cmcname = Config.get("Main", 'CoinMarketCapCurrencyName')
-aabks = int(Config.get("Main", 'AvailableBlocksInStats'))
-
-
+if (UseConfig == 1):
+    page = Config.get("Main", 'urlToPool')
+    poolname = Config.get("Main", 'PoolName')
+    cshortname = Config.get("Main", 'CurrencyShortName')
+    cmcname = Config.get("Main", 'CoinMarketCapCurrencyName')
+    aabks = int(Config.get("Main", 'AvailableBlocksInStats'))
+else:
+    page = urlToPool
+    poolname = PoolName
+    cshortname = CurrencyShortName
+    cmcname = CoinMarketCapCurrencyName
+    aabks = int(AvailableBlocksInStats)
+    
 
 api = ""
 url = ""

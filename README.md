@@ -2,6 +2,9 @@
 
 ### Created by Marekkon5
 
+### Requires Python 2 to build or use source.
+### Releases doesn't
+
 ### Usage:
 
 #### Edit config.txt to match your pool:
@@ -35,6 +38,22 @@ After Click Calculate!
 	  
 And you are done  
 #### IMPORTANT! The binary also requires config.txt!
+
+### Edits to not use the config.txt
+
+1. Open ProfitCalc using Notepad++ or something like that. Python IDE is perfect
+
+2. Change on top **UseConfig = 1** to **UseConfig = 0**
+
+3. Fill values from config to the ProfitCalc.py
+
+urlToPool = ""
+PoolName = ""
+CurrencyShortName = ""
+CoinMarketCapCurrencyName = ""
+AvailableBlocksInStats = 0
+
+4. Save and follow build instructions above, but config.txt is no longer required.
 
 RELEASES Also Available
 
