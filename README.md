@@ -52,7 +52,7 @@ AvailableBlocksInStats = 0
 ```
 4. Save and follow build instructions above, but config.txt is no longer required.
 
-####RELEASES Also Available
+#### RELEASES Also Available
 
 
 ### How it works:  
