@@ -7,17 +7,17 @@
 #### Edit config.txt to match your pool:
 
 [Main]
-urlToPool: **Pool URL, Ex: http://zec.suprnova.cc/**  <br />
+1. urlToPool: **Pool URL, Ex: http://zec.suprnova.cc/**
 
-PoolName: **Pool Name, Ex: ZEC Suprnova**  <br />
+2. PoolName: **Pool Name, Ex: ZEC Suprnova**
 
-CurrencyShortName: **Currency Short Name, Ex: ZEC**  <br />
+3. CurrencyShortName: **Currency Short Name, Ex: ZEC**
 
-CoinMarketCapCurrencyName: **CoinMarketCap.com Currency Name, Ex: ZCash**  <br />
+4. CoinMarketCapCurrencyName: **CoinMarketCap.com Currency Name, Ex: ZCash**
 
-AvailableBlocksInStats: **Available Blocks In Pool Statistics, Ex: 20**  <br />
+5. AvailableBlocksInStats: **Available Blocks In Pool Statistics, Ex: 20**
 
-AvailableBlocksInStats - you can get this value from pool > statistics > blocks  <br />
+6. AvailableBlocksInStats - you can get this value from pool > statistics > blocks
 
 #### Then open or build (if u want to have exe for non-python users)
 
